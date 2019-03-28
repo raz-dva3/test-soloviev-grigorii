@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Кодировка веб-страницы -->
+<meta charset="utf-8">
+<!-- Настройка viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Подключаем Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<body>
+<form name="form" method="post" action="academy.php" role="form">
+    <div class="form-group">
+        <label for="fullname">ФИО</label>
+        <input type="text" class="form-control" name="fullname" placeholder="Фамилия Имя Отчесвто"> 
+    </div>
+    <div class="form-group">
+        <label for="phone">Мобильный телефон</label>
+        <input type="tel" class="form-control" name="phone" placeholder="Введите номер мобильного телефона"> 
+<p class="help-block">+7(999)999-99-99</p>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" placeholder="Введите email"> 
+<p class="help-block">name@example.com</p>
+    </div>
+    <div class="form-group">
+        <label for="date-birth">Дата рождения</label>
+        <input type="date" class="form-control" name="date" placeholder="Дата рождения"> 
+<p class="help-block">ДД.ММ.ГГГГ</p>
+    </div>
+    <div class="form-group">
+        <label for="comment">Комментарий</label>
+        <input type="text" class="form-control" name="comment" placeholder="Коммментарий"> 
+    </div>
+<input type="submit" class="btn btn-success" name="done" value="Готово!" />
+</form> 
+<!-- Подключаем jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Подключаем Bootstrap JS -->    
+<script src="js/bootstrap.min.js"></script>
+
+<script charset="utf-8" src='https://www.google.com/recaptcha/api.js'></script>
+<div class="g-recaptcha" data-sitekey="6LeblpoUAAAAANg7jimerIRW9Jk3UXHoF5LbKkAS"></div>
+</body>
+</head>
+</html>
